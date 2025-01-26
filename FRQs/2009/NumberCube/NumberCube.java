@@ -111,8 +111,10 @@ public class NumberCube {
 			if (getLongestRun(testTosses) == getLongestRunPerformant(testTosses))
 				passCount++;
 		}
-		System.out.printf("Optimized solution passed %d of %d pseudorandom test cases (%d%%) with %d tosses each", passCount, totalCount,
+		System.out.printf("Optimized solution passed %d of %d pseudorandom test cases (%d%%) with %d tosses each",
+			passCount, totalCount,
 			passCount * 100 / totalCount,
 			numTosses);
+		System.out.println();
 	}
 }
