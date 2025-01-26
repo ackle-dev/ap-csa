@@ -14,10 +14,10 @@ public class NumberCube {
 	 * times.
 	 *
 	 * @param cube
-	 *        a NumberCube
+	 * a NumberCube
 	 * @param numTosses
-	 *        the number of tosses to be recorded
-	 *        Precondition: numTosses > 0
+	 * the number of tosses to be recorded
+	 * Precondition: numTosses > 0
 	 * @return an array of numTosses values
 	 */
 	public static int[] getCubeTosses(NumberCube cube, int numTosses) {
@@ -32,9 +32,9 @@ public class NumberCube {
 	 * repeated values in the array values.
 	 *
 	 * @param values
-	 *        an array of integer values representing a series of number cube
-	 *        tosses
-	 *        Precondition: values.length > 0
+	 * an array of integer values representing a series of number cube
+	 * tosses
+	 * Precondition: values.length > 0
 	 * @return the starting index of a run of maximum size; -1 if there is no run
 	 */
 	public static int getLongestRun(int[] values) {
@@ -59,9 +59,9 @@ public class NumberCube {
 	 * An optimized version of the getLongestRun method
 	 *
 	 * @param values
-	 *        an array of integer values representing a series of number cube
-	 *        tosses
-	 *        Precondition: values.length > 0
+	 * an array of integer values representing a series of number cube
+	 * tosses
+	 * Precondition: values.length > 0
 	 * @return the starting index of a run of maximum size; -1 if there is no run
 	 */
 	public static int getLongestRunPerformant(int[] values) {
